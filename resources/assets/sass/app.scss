@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(233, 235, 238);
+}
+
+main {
+    background-color: white;
+    margin-top: 60px;
+    box-shadow: rgb(212, 212, 213) 0px 1px 3px 0px, rgb(212, 212, 213) 0px 0px 0px 1px;
+    padding: 30px;
+    border-radius: 0.285714rem;
+    transition: box-shadow 0.1s ease, transform 0.1s ease;
+}
+
+.ui.celled.definition-end.table thead:not(.full-width) th:last-child {
+    box-shadow: 0 -1px 0 1px #fff;
+}
+
+.ui.definition-end.table thead:not(.full-width) th:last-child {
+    pointer-events: none;
+    background: 0 0;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .4);
+    box-shadow: -1px -1px 0 1px #fff;
+}
+
+.ui.button.icon {
+    padding: 10px;
+    i.icon {
+        margin: 0;
+        font-size: 140%;
+        font-weight: 900;
+    }
+}
+
+form.edit {
+    padding: 1rem;
+    border-radius: 0.285714rem;
+    box-shadow: #d4d4d5 0px 1px 3px 0px, #d4d4d5 0px 0px 0px 1px;
+}

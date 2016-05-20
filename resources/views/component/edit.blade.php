@@ -1,0 +1,1 @@
+<a class="ui button blue tiny icon" href="{{ Request::url() . '/' . $id . '/edit' }}"><i class="edit icon"></i></a>
